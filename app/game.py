@@ -2,7 +2,6 @@
 import random
 
 
-
 class DamageCalculationError(Exception):
     pass
 
@@ -21,7 +20,7 @@ class Character:
 
         self.inventory = {
             "consumables": ["Potion", "Coins", "Energy"],
-            "gear": ["Dagger", "Bows", "Shield", "Armor"]
+            "gear": ["Dagger", "Bows", "Shield", "Armor"],
         }
 
         self.has_sneak_attack = True
