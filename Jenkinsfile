@@ -44,13 +44,13 @@ pipeline {
         }
 
         stage('Unit Tests') {
-            steps {
+   	    steps {
                 sh '''
                 . .venv/bin/activate
                 export PYTHONPATH=$WORKSPACE
                 pytest -q
                 '''
-            }
+           }
         }
 
         stage('Build Docker Image') {
