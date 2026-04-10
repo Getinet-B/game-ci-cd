@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "game-ci-cd"
         CONTAINER_NAME = "game-ci-cd-container"
-        HOST_PORT = "8080"
+        HOST_PORT = "8082"
         CONTAINER_PORT = "8000"
     }
 
