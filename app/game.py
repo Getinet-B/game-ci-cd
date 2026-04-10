@@ -1,6 +1,6 @@
 # app/game.py
 import random
-import copy
+
 
 
 class DamageCalculationError(Exception):
