@@ -2,7 +2,7 @@
 from fastapi import FastAPI
 from app.game import simulate_battle
 
-app = FastAPI(title="Game CI/CD Demo v4")
+app = FastAPI(title="Game CI/CD Demo v5")
 
 
 @app.get("/health")

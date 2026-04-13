@@ -1,1 +1,1 @@
-{"_class":"hudson.security.csrf.DefaultCrumbIssuer","crumb":"932933ed9a58212edf5cd3c0aaa279af018cb3db1276e8a3875780eb2429a5b8","crumbRequestField":"Jenkins-Crumb"}
+{"_class":"hudson.security.csrf.DefaultCrumbIssuer","crumb":"60c603499ed7e8a8d66d66fb645d319e738d53f0da6e8534788449624eae0fca","crumbRequestField":"Jenkins-Crumb"}
